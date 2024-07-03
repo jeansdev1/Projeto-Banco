@@ -1,12 +1,21 @@
 import readlinesync = require('readline-sync');
 import { colors } from './src/util/Colors';
+import { Conta } from './src/model/Conta';
 
 export function main() {
 
     let opcao: number;
 
+    // Criar Objetos da classe conta
+    const c1: Conta = new Conta(1, 1243, 1, 'Jean Andre', 80000.00);
+    const c2: Conta = new Conta(2, 1226, 2, 'Joana Silva', 70000.00);
+
+    c1.vizualizar();
+    c2.vizualizar();
+
+
     while (true) {
-        console.log(colors.bg.white, colors.fg.blackstrong)
+        console.log(colors.fg.magentastrong)
         console.log('*****************************************************');
         console.log(`                                                    |
                        _=,_                         |
