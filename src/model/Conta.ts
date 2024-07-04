@@ -74,7 +74,7 @@ export class Conta {
 
     // metodo para vizualizar todos os dados
 
-    public vizualizar(): void {
+    public visualizar(): void {
 
         let tipoConta: string = ''
         switch (this._tipo) {
@@ -87,9 +87,9 @@ export class Conta {
         }
 
 
-        console.log('**************************************');
-        console.log('Dados da Conta ');
-        console.log('**************************************');
+        console.log('\n **************************************');
+        console.log('\n Dados da Conta ');
+        console.log('\n **************************************');
         console.log(`Numero da Conta: ${this._numero} `);
         console.log(`Numero da Agencia: ${this._agencia} `);
         console.log(`Tipo da Conta: ${tipoConta} `);
