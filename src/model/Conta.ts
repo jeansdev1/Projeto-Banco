@@ -76,13 +76,13 @@ export abstract class Conta {
 
     public visualizar(): void {
 
-        let tipoConta: string = ''
+        let tipo: string = ''
         switch (this._tipo) {
             case 1:
-                tipoConta = 'Conta corrente'
+                tipo = 'Conta corrente'
                 break;
             case 2:
-                tipoConta = 'Conta Poupanca'
+                tipo = 'Conta Poupanca'
                 break;
         }
 
@@ -92,7 +92,7 @@ export abstract class Conta {
         console.log('\n **************************************');
         console.log(`Numero da Conta: ${this._numero} `);
         console.log(`Numero da Agencia: ${this._agencia} `);
-        console.log(`Tipo da Conta: ${tipoConta} `);
+        console.log(`Tipo da Conta: ${tipo}`);
         console.log(`Titular da Conta: ${this._titular} `);
         console.log(`Saldo da Conta: ${this._saldo.toFixed(2)} `);
 
