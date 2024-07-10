@@ -138,9 +138,9 @@ export function main() {
       
       export function sobre(): void {
         console.log("\n*****************************************************");
-        console.log("Projeto Desenvolvido por: 3,14R");
-        console.log("Generation Brasil - generation@generation.org");
-        console.log("github.com/conteudoGeneration");
+        console.log("Projeto Desenvolvido por: Jeansdev1");
+        console.log("Jean Andre - jeanv_lima@outlook.com");
+        console.log("github.com/jeansdev1/Projeto-Banco");
         console.log("*****************************************************");
       }
       
